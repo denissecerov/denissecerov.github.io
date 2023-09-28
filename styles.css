@@ -1,0 +1,71 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.centered {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 10px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.zebra-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.zebra-table td {
+    padding: 10px;
+}
+
+.zebra-table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #0078d4;
+}
+
+.quote {
+    background-color: rgba(255, 150, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+
+
