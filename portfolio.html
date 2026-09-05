@@ -184,13 +184,15 @@
             align-items: start;
         }
 
-        .profile-img {
-            width: 100%;
-            max-width: 250px;
-            border-radius: 50%;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-            animation: float 3s ease-in-out infinite;
-        }
+    .profile-img {
+    width: 100%;
+    max-width: 260px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    animation: float 3s ease-in-out infinite;
+}
 
         .skills {
             display: grid;
@@ -429,9 +431,12 @@
     <div class="container">
         <section id="about">
             <h2>About Me</h2>
-            <div class="about-content">
-                <div></div>
-                <div>
+           <div class="about-content">
+    <div class="profile-image-container">
+        <img src="profile.jpg" alt="Denis Secerov" class="profile-img">
+    </div>
+    <div>
+
                     <p>Hi! I'm Denis, a software engineer and UI/UX designer based in Atlanta, Georgia. I graduated from Georgia State University with a B.S. in Computer Science and have a passion for creating intuitive, user-friendly applications.</p>
                     <p style="margin-top: 1rem;">With experience spanning web development, UI/UX design, and software engineering, I specialize in building solutions that combine technical excellence with thoughtful design. I'm AWS Certified and hold a Google UX/UI Certificate, bringing both development expertise and design thinking to every project.</p>
                     <p style="margin-top: 1rem;"><strong>Education:</strong> B.S. in Computer Science, Georgia State University (December 2024)</p>
